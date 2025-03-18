@@ -1,11 +1,13 @@
 # Scala 3 - Main Highlights
 
 ## 1. Extension method to replace implicit
+   ```
    extension(s: AnyType):
-   def anyMethod: ReturnType = logic here
+     def anyMethod: ReturnType = logic here
+   ```
 
 ## 2. Adopted python like syntax
-   {} to be removed and used only :, but we can still use it
+   `{}` to be removed and used only `:` but we can still use it
 
 ## 3. Enum are defined in scala 3 to be used
    Simple enum syntax
@@ -85,6 +87,7 @@
 ## 7. Open classes
    in scala 3 extending non-abstract classes in other files is restricted,
    In order to allow this, the base class needs to be marked as open
+
    `open class Person(name: String)`
 
 ## 8. Union types
@@ -134,11 +137,11 @@
    generalized algebraic datatypes (GADTs).
 
 ## 11. Variance
-    Example of an invariant type
-    ```
-    trait Pipeline[T]:
+   Example of an invariant type
+   ```
+   trait Pipeline[T]:
        def process(t: T): T
-    ```
+   ```
 
    Example of a covariant type
    ```
@@ -159,39 +162,7 @@
    you would typically only come across it when designing your own libraries or using advanced libraries.
 
 ## References
-https://docs.scala-lang.org/scala3/book/types-variance.html
-https://docs.scala-lang.org/scala3/book/types-opaque-types.html
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ - https://docs.scala-lang.org/scala3/book/types-variance.html
+ - https://docs.scala-lang.org/scala3/book/types-opaque-types.html
 
 To Continue from : https://docs.scala-lang.org/scala3/book/types-introduction.html#
