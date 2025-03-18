@@ -1,3 +1,5 @@
+package functions
+
 object FirstClassFunctions:
 
   val a = List(1, 2, 3).map(i => i * 2)

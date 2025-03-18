@@ -1,3 +1,5 @@
+package domainmodelling
+
 object OOPModeling {
 
   // traits

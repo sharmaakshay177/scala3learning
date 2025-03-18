@@ -4,7 +4,7 @@ import java.io.StringWriter
 // methods which are not inside class, trait or object
 def sayHello(name: String): Unit = println(s"Hello, $name")
 
-object Methods {
+object TopLevelMethods {
 
   def singleExpressionMethod(a: Int, b: Int): Int = a + b
 
