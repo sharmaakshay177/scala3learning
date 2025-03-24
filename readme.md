@@ -164,5 +164,6 @@
 ## References
  - https://docs.scala-lang.org/scala3/book/types-variance.html
  - https://docs.scala-lang.org/scala3/book/types-opaque-types.html
+ - https://docs.scala-lang.org/scala3/reference/index.html
 
 To Continue from : https://docs.scala-lang.org/scala3/book/types-introduction.html#
